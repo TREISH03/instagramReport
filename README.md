@@ -47,7 +47,8 @@ The **Instagram Mass Reporting Tool** is a **powerful** solution for automating 
 
 ### 🖼 **Preview**  
 
-[Preview Video](https://youtu.be/eBfrZkb2Yjo?si=gviXvNSRh_fpCwHV)
+[![Showcase](https://img.youtube.com/vi/eBfrZkb2Yjo/0.jpg)](https://www.youtube.com/watch?v=eBfrZkb2Yjo)
+
 
 **1. Mass Reporting UI**  
 ![Mass Reporting Tool UI](https://github.com/BangramV2/instagramReport/raw/main/image1.png)  
