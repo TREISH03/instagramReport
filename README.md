@@ -53,7 +53,7 @@ The **Instagram Mass Reporting Tool** is a **powerful** solution for automating 
 ![Mass Reporting Tool UI](https://imgur.com/a/94xWl92)  
 
 **2. Reporting Panel**  
-![Reporting Panel](https://imgur.com/a/wDLrkPN)  
+![Reporting Panel]([https://imgur.com/a/wDLrkPN](https://github.com/BangramV2/instagramReport/blob/main/image.png))  
 Easily select accounts and posts to report with just a few clicks. 🖱️
 
 ---
