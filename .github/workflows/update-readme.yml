@@ -2,28 +2,28 @@ name: README Timestamp Updater
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Runs every 30 minutes
-  workflow_dispatch:        # Manual run support
+    - cron: '*/30 * * * *'  # Every 30 minutes
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Update Timestamp
+      - name: Update timestamp
         run: |
           NOW=$(date -u '+%Y-%m-%d %H:%M UTC')
           sed -i "s/^Last updated:.*/Last updated: $NOW/" README.md
 
-      - name: Commit and Push
+      - name: Commit and push changes
         env:
           TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          git config --global user.name 'YourNameHere'
-          git config --global user.email 'your-email@example.com'
+          git config --global user.name "BangGram"
+          git config --global user.email "you@example.com"
           git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
           git add README.md
           git commit -m "chore: update README timestamp" || echo "No changes to commit"
